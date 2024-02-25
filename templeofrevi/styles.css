@@ -1,0 +1,85 @@
+body {
+    background-image: url('../images/TempleOfRevi_1920x1080.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    height: 100%;
+    margin-top: 2em;
+}
+
+p {
+    color: white;
+    font-size: 1.5em;
+    text-shadow: #d66a11 1px 0 2px;
+    width: 350px;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+}
+
+p:hover {
+    text-shadow: #d66a11 1px 0 4px;
+    cursor: default;
+}
+
+.options {
+    height: 18em;
+}
+
+.options a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.options a p {
+    font-size: 2em;
+    font-weight: 500;
+    transition: text-shadow .2s ease-in-out;
+    margin-block-start: .8em;
+    margin-block-end: .8em;
+}
+
+.options a p:hover {
+    /* font-size: 2.1em; */
+    text-shadow: 1px 1px 0px #ff7700, 0 0 1em #ffd900, 0 0 0.2em #ff7700;
+    cursor: pointer;
+}
+
+.logo {
+    width: 35em;
+    height: auto;
+    transition: filter .8s ease-in-out;
+}
+
+
+.logo:hover {
+    filter: drop-shadow(0px 8px 4px #965d1faa);
+}
+
+.social a {
+    transition: filter .2s ease-in-out;
+}
+.social a:hover {
+    filter: drop-shadow(0px 0px 10px #e87d0aaa);
+}
+.social a img {
+    width: 2em;
+    height: auto;
+    transition: width .2s ease-in-out;
+}
+.social a img:hover {
+    width: 2.2em;
+}
+
+.noto-sans lepcha-regular {
+    font-family: "Noto Sans Lepcha", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
