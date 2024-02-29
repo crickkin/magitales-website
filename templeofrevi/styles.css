@@ -85,7 +85,7 @@ p:hover {
     font-style: normal;
 }
 
-@media screen and (max-width: 1080px) and (min-width: 252px) {
+@media screen and (max-width: 600px) and (min-width: 252px) {
     section {
         width: 100%;
     }
